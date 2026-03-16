@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Sora', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 1rem !important;
+  }
+}

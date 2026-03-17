@@ -16,7 +16,7 @@ function Contacto({ oscuro }) {
     e.preventDefault()
     setEstado('enviando')
     try {
-      const res = await fetch('http://localhost:3000/contacto', {
+   const res = await fetch('https://mi-portfolio-production.up.railway.app/contacto', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)

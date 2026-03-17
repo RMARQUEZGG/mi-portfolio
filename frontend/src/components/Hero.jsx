@@ -8,7 +8,7 @@ function Hero({ oscuro }) {
         <section id="inicio" style={{ padding: '3rem 0 4rem' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
                 <img
-                    src="/src/Perfil.jpeg"
+                    src="/Perfil.jpeg"
                     alt="Rocio Marquez"
                     style={{
                         width: '70px',
